@@ -1,0 +1,6 @@
+interface:
+  display_name: "GitHub Project Publisher"
+  short_description: "Create repos, READMEs, and releases on GitHub"
+  default_prompt: "Use $github-publish-project to publish this project to GitHub, add a README, and create v1.0.0."
+policy:
+  allow_implicit_invocation: true
